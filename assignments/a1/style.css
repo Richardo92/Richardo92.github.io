@@ -1,0 +1,12 @@
+.changeColor {
+  color: green;
+}
+.defaultColor {
+  color: red;
+}
+.changeBorderColor {
+  border-color: green;
+}
+.defaultBorderColor {
+  border-color: red;
+}
