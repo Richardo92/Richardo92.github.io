@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='DIApp'>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Angular JS Assignment 1</title>
+  </head>
+  <body>
+    <h1>Dependency Injection in Javascript
+        (and AngularJS)</h1>
+    <div ng-controller='DIController'>
+      <input type="text"
+             ng-model="name"
+             ng-class="{changeBorderColor: Color, defaultBorderColor: !Color}"> <br>
+      <button ng-click="check()"> Check If Too Much </button> <br>
+      
+      <p ng-class="{changeColor: Color, defaultColor: !Color}"> {{response}} </p>
+    </div>  
+    <br>
+  </body>
+
+</html>
